@@ -1,9 +1,9 @@
 # cli util for file creating from template
 
-how using
+how using for '{{{' '}}}'
 
 ```bash
-./gotpl -s source -tf template -fs '' -es ''
+go run cmd/gotpl/main.go -sfp=testfiles/source.js -tfp=testfiles/config.yml -fs='{{{' -es='}}}'
 ```
 
 -fs = '⟦⟦' - символ открытия шаблонной строки
