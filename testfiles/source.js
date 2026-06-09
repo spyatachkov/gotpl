@@ -1,0 +1,1 @@
+(function(e){(function(){var t={}.hasOwnProperty;function n(){for(var a=%%key1%%,i=0;i<arguments.length;i++)}})})
